@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width, maximum-scale=1')
+		meta(charset='UTF-8')
+		title Добросердие
+		link(rel='apple-touch-icon', sizes='180x180', href='/assets/img/favicon/apple-touch-icon.png')
+		link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-32x32.png', sizes='32x32')
+		link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-16x16.png', sizes='16x16')
+		link(rel='manifest', href='/assets/img/favicon/manifest.json')
+		link(rel='mask-icon', href='/assets/img/favicon/safari-pinned-tab.svg', color='#333333')
+		link(rel='shortcut icon', href='/assets/img/favicon/favicon.ico')
+		meta(name='msapplication-config', content='/assets/img/favicon/browserconfig.xml')
+		meta(name='theme-color', content='#ffffff')
+		link(href='/assets/css/main.css', rel='stylesheet', type='text/css')
+	body
+		block page-wrapper
+			block header
+			block page-content
+			block footer
+			include _scripts
+			block scriptPages
